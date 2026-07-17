@@ -1,5 +1,5 @@
 # Tool to Disable The GameInput Service(s)
-To be ideally used with Windows Task Scheduler, however the script can be run by itself 
+To be ideally used with Windows Task Scheduler
 
 ## Description
 I made this because there is a bug that occurs when using an Xbox Controller on Windows 10 & 11. The API that Windows makes use of now is "GameInput", which for some users slowly tanks performance whilst the service is in use, i.e. when using an Xbox controller. 
@@ -17,4 +17,4 @@ This script, using a batch file's command-line prompts, will disable both the Ga
   - restart user session to see results (check event viewer upon activating script to see the magic)
 
 ### Notes
-A worse alternative would be deleting the files for it, however with each Windows update it will continuously reinstall itself, so disabling it is the best outcome.  
+A worse alternative would be deleting the files for GameInput, however with each Windows update it will continuously reinstall itself, so disabling it is the best outcome.  
