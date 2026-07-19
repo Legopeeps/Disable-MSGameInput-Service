@@ -11,10 +11,10 @@ This script, using a batch file's command-line prompts, will disable both the Ga
   - Open Task Scheduler (Press "WinKey" then type Task Scheduler)
   - Press "Create Basic Task..." from the Action dropdown 
   - Name & Describe as something you'd remember. I named mine "AutoDisable MS GameInput Services"
-  - For Task Trigger, set ideally "When I log on" or "When the computer starts"
+  - For Task Trigger, set "When I log on" or "When the computer starts"
   - Select "Start a program" for action, then enter the location of the batch file specifically, i.e."X:\Disable-MSGameInput-Service\DisableGameInput.bat"
   - Follow the wizard through to the end
-  - restart user session to see results (check event viewer upon activating script to see the magic)
+  - Restart user session to see results (check event viewer upon activating script to see the magic)
 
 ### Notes
 A worse alternative would be deleting the files for GameInput, however with each Windows update it will continuously reinstall itself, so disabling it is the best outcome.  
